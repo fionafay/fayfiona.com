@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.middle-box {
+  background: lightyellow;
+  width: 50%;
+  text-align: center;
+}
+
+bio > h1 {
+  font-size: 100px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  padding-bottom: 8px;
+  font-family: Amatic SC;
+  weight: lighter;
+}
+
+bio > h2 {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #6b6464;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+bio > h3 {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #6b6464;
+  margin-top: 0;
+}
